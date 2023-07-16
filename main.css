@@ -1,0 +1,31 @@
+div {
+    margin: 8px auto;
+
+}
+
+h2::first-letter {
+    font-size: larger;
+}
+
+.asterik {
+    font-style: italic;
+}
+
+.asterik::after {
+    content: '*';
+    color: red;
+}
+
+.form {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+
+.btn {
+    background-color: rgb(19, 19, 116);
+    color: white;
+    padding: 8px;
+    width: 20%;
+    margin: 16px auto;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Form Task 2</title>
+</head>
+<body>
+    <h1>Pearson Charity: Donation Form</h1>
+    <p class="asterik">Please complete the form. Mandatory fields are marked with a </p>
+    <div class="form">
+        <h2>PERSONAL INFORMATION DETAILS</h2>
+        <label for="name" class="asterik">Name</label>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label for="phone" class="asterik">Phone</label>
+        <input type="tel" id="phone">
+    </div>
+    <div>
+        <label for="email" class="asterik">Email</label>
+        <input type="email" id="email">
+    </div>
+    <div>
+        <label for="gender" class="asterik">Gender</label>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+    </div>
+
+    <div class="form">
+        <h2>DONATION DETAILS</h2>
+        <div>
+            <label for="amount" class="asterik">Email</label>
+            <input type="text" id="amount" placeholder="Any amount between R! - R1000">
+        </div>
+
+        <div>
+            <label for="fund" class="asterik">Fund</label>
+            <select id="fund">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+        </div>
+    </div>
+
+    <button class="btn">Donate</button>
+
+</body>
+</html>
